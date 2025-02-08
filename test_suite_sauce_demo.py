@@ -20,6 +20,6 @@ class TestSuite(unittest.TestCase):
 
         )
         runner = HTMLTestRunner(
-            report_name='Sauce Demo Tests',
+            report_name='Sauce Demo Tests'
         )
         runner.run(teste_de_rulat)
