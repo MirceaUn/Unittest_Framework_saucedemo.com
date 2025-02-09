@@ -1,5 +1,6 @@
 About the project - The scope of this suite is to test some of the functionalities of the Login Page and AddtoCart Page on the website: https://www.saucedemo.com/ 
 
+
 Prerequisites
 
 1. PyCharm 2024.3.2
@@ -8,13 +9,26 @@ The Python code for these tests was written using PyCharm 2024.3.2. The version 
 
 2. Unittest library
 
-Unit Testing is the first level of software testing where the smallest testable parts of software are tested. And the Python Unittest is a built-in testing framework that provides a set of tools for testing our code’s functionality in a more systematic and organized manner.
+Unit Testing is the first level of software testing where the smallest testable parts of software are tested. The Python Unittest is a built-in testing framework that provides a set of tools for testing our code’s functionality in a more systematic and organized manner.
 
 4. HTMLTestRunner-rv 1.1.2
 
 It is a third-party library made to create HTML reports of the tests conducted. These reports are made in a human-readable presentation.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Installation and setup
+
+1. Create a folder in your computer where you'll store the code to run the app
+2. Open a new project in PyCharm, set up a virtual environment and for, each page where tests will be made, set up a PythonFile
+3. In each PythonFile we will use the Unittest Library and the Selenium Package to automate our tests
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
 
 Test Cases description
 
