@@ -8,11 +8,11 @@ The Python code for these tests was written using PyCharm 2024.3.2. The version 
 
 2. Unittest library
 
-   Unit Testing is the first level of software testing where the smallest testable parts of software are tested. And the Python Unittest is a built-in testing framework that provides a set of tools for testing our code’s functionality in a more systematic and organized manner.
+Unit Testing is the first level of software testing where the smallest testable parts of software are tested. And the Python Unittest is a built-in testing framework that provides a set of tools for testing our code’s functionality in a more systematic and organized manner.
 
 4. HTMLTestRunner-rv 1.1.2
 
-   It is a third-party library made to create HTML reports of the tests conducted. These reports are made in a human-readable presentation.
+It is a third-party library made to create HTML reports of the tests conducted. These reports are made in a human-readable presentation.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
