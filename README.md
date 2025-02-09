@@ -1,6 +1,8 @@
 About the project - The scope of this suite is to test some of the functionalities of the Login Page and AddtoCart Page on the website: https://www.saucedemo.com/ 
 
 
+
+
 Prerequisites
 
 1. PyCharm 2024.3.2
