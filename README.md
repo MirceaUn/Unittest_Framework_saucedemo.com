@@ -18,7 +18,7 @@ It is a third-party library made to create HTML reports of the tests conducted. 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Installation and setup
 
-1. A folder needs to be created in computer, where the code to run the app will be stored
+1. A folder needs to be created in the computer, where the code to run the app will be stored
 2. A new project needs to be opened in PyCharm, a virtual environment needs to be created and for, each page where tests will be made, a PythonFile needs to be opened
 3. In each PythonFile the Unittest Library and the Selenium Package will be used to automate the tests
 4. For each set of tests 2 mandatory functions need to be created:
@@ -46,5 +46,15 @@ Test Cases description
 
 Running the tests
 
+Because Unittest allows you to test the smallest testable parts of the software, the following options are available:
+- to run a test, one at a time - for example pressing the play button near the "testWrongCredentials" will run only this test
+- to run all the tests from a page - for example pressing the play button near the class "LoginTests" will run all the tests from this page
+![unittest_tests](https://github.com/user-attachments/assets/433fdc94-80f4-4007-a38e-e78ae51176fc)
 
- Test Suite - it is composed of the tests from LoginTests and Cart Tests and the results can be seen in the generated report
+
+Test Suite:
+- it is composed of the tests from LoginTests and CartTests
+- using the decorator "@unittest.skip" we can choose which tests to skip
+- the results can be seen in the generated report
+![image](https://github.com/user-attachments/assets/fac47579-aad1-42d5-a99f-cd53e587107d)
+
