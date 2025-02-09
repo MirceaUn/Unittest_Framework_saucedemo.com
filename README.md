@@ -11,7 +11,11 @@ The Python code for these tests was written using PyCharm 2024.3.2. The version 
 
 Unit Testing is the first level of software testing where the smallest testable parts of software are tested. The Python Unittest is a built-in testing framework that provides a set of tools for testing our code’s functionality in a more systematic and organized manner.
 
-4. HTMLTestRunner-rv 1.1.2
+3. Selenium Module 4.28.1
+
+It is the main tool used to automate web browser interaction from Python
+
+5. HTMLTestRunner-rv 1.1.2
 
 It is a third-party library made to create HTML reports of the tests conducted. These reports are made in a human-readable presentation.
 
@@ -20,7 +24,7 @@ Installation and setup
 
 1. A folder needs to be created in the computer, where the code to run the app will be stored
 2. A new project needs to be opened in PyCharm, a virtual environment needs to be created and for, each page where tests will be made, a PythonFile needs to be opened
-3. In each PythonFile the Unittest Library and the Selenium Package will be used to automate the tests
+3. In each PythonFile the Unittest Library and the Selenium Module will be used to automate the tests
 4. For each set of tests 2 mandatory functions need to be created:
       - the SetUp function - for the economy of code all the steps prior to the actual test are written here (opening the website, maximizing the window, etc.)
       - the TearDown function - all the steps needed after running the test are written here (closing the website and browser)
