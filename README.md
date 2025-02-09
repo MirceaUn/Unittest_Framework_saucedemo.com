@@ -1,13 +1,15 @@
-About the project
+About the project - The scope of this suite is to test some of the functionalities of the Login Page and AddtoCart Page on the website: https://www.saucedemo.com/ 
 
-The test cases (LoginTests and CartTests) and the test suite from this repository were created using the Unit Testing Framework. 
+Prerequisites
 
-They were built in Python with:
-- Unittest library
-- Selenium
-- HTMLTestRunner
+   1. PyCharm 2024.3.2
+The Python code for these tests was written using PyCharm 2024.3.2. The version of Python can be checked in cmd.exe using the command: "python --version". In my case it is Python 3.12.
+   2. Unittest library
+Unit Testing is the first level of software testing where the smallest testable parts of software are tested. And the Python Unittest is a built-in testing framework that provides a set of tools for testing our code’s functionality in a more systematic and organized manner.
+   3. HTMLTestRunner-rv 1.1.2
+It is a third-party library made to create HTML reports of the tests conducted. These reports are made in a human-readable presentation.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Test Cases description
 
